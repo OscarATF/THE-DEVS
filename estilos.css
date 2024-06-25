@@ -1,0 +1,90 @@
+/* estilos.css */
+
+/* Estilo básico para el cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Encabezados */
+h1, h2 {
+    text-align: center;
+    color: #316599;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2em;
+    margin: 10px 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ecf0f1;
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+/* Enlaces */
+a {
+    color: #5a5a5a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #5a5a5a;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
