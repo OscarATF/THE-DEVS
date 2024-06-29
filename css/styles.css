@@ -20,15 +20,26 @@ body {
 }
 
 /* Encabezados */
-h1, h2 {
+h2 {
     text-align: center;
     color: #316599;
     margin: 20px 0;
 }
 
 h1 {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0;
     font-size: 2.5em;
     margin-bottom: 20px;
+}
+.rectangulo {
+    width: 95%; /* Ancho del rectángulo */
+    margin: 0 auto; /* Centra el rectángulo horizontalmente */
+    padding: 1px; /* Espaciado interno para el contenido */
+    background-color: #316599; /* Color de fondo del rectángulo */
+    border: 1px solid #ccc; /* Borde del rectángulo */
+    text-align: center; /* Centra el texto dentro del rectángulo */
 }
 
 h2 {
@@ -87,4 +98,6 @@ img {
     font-size: 0.9em;
     color: #777;
 }
-
+b {
+    color: rgb(220, 28, 28);
+}
